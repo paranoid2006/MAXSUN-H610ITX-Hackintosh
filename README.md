@@ -10,17 +10,17 @@ OpenCore | 0.9.2
  
  BIOS设置 | Details
 --- | ---
- CFGLock | Disable
  Hyper-Threading | Enable
  VT-d Enable Above 4G decoding | Enable
  Resizable Bar | Enable
- Device Security Support | Disable
- Serial/COM Port | Disable
  EHCI/XHCI Hand-off | Enable
+ Wake on USB | Enable
+ Wake on Bluetooth | Enable
+ CFG Lock | Disable
+ Security Device Support | Disable
+ Serial/COM Port | Disable
  CSM Support | Disable
  Fast Boot | Disable
  Secure Boot | Disable
  Trusted platform Module | Disable
- Wake on USB | Disable
- Wake on Bluetooth | Enable
  Wake on LAN | Disable
