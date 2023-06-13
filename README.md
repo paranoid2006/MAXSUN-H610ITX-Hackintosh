@@ -1,7 +1,7 @@
 # 铭瑄挑战者 H610ITX 2.5G 黑苹果
 Items | Details
 --- | ---
-CPU | i9 13900 注意，大小核心需要开启所有线程的话，需要禁用SMCProcessor.kext,开启ProvideCurrentCpuInfo
+CPU | 兼容12代合13代CPU，大小核心需要开启所有线程的话，需要禁用SMCProcessor.kext,开启ProvideCurrentCpuInfo
 主板 |  MAXSUN H610ITX ([BIOS](https://www.maxsun.com.cn/2022/0512/5728.html):E1.6G)
 显卡 | RX 6600 8GB GDDR6
 Wifi |  BCM943602CS
