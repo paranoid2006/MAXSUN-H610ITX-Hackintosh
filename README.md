@@ -5,10 +5,12 @@ CPU | i9 13900 注意，大小核心需要开启所有线程的话，需要禁�
 主板 |  MAXSUN H610ITX ([BIOS](https://www.maxsun.com.cn/2022/0512/5728.html):E1.6G)
 显卡 | Radeon™ RX 6600 8GB GDDR6
 Wifi |  BCM943602CS
-OpenCore | 0.9.2
+OpenCore | 0.9.3 
 
- 
- BIOS设置 | Details
+![](AboutMac.png)
+
+
+ BIOS设置 | 是否启用 
 --- | ---
  Hyper-Threading | Enable
  VT-d Enable Above 4G decoding | Enable
