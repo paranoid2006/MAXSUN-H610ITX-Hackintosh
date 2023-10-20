@@ -7,8 +7,12 @@ CPU | i9 13900 注意，大小核心需要开启所有线程的话，需要禁�
 Wifi |  BCM943602CS
 内存 | 光威 天策 32GB 3200*2, 主板BIOS限制，目前只能2933，3200需要手动设置更细的参数，懒得折腾了。 
 硬盘 | 1TB NVME(MacOS) +1TB SATA(Windows) 
-OpenCore | 0.9.3 
-
+OpenCore | 0.9.5 
+注意：Sonoma 14下老的博通无线网卡(BCM943602CS之类)驱动被移除了，现在已经手动加回来了，需要OpenCore-Legacy-Patcher的支持。
+EFI里面增加了驱动，不过安装完成后需要OpenCore-Legacy-Patcher执行 Post-Install Root Patch
+https://github.com/dortania/OpenCore-Legacy-Patcher
+参考：https://www.bilibili.com/read/cv25391191/
+使用我的EFI都配置好了，只需要最后一步OpenCore-Legacy-Patcher执行 Post-Install Root Patch
 ![](AboutMac.png)
 
 
